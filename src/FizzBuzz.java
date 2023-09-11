@@ -38,7 +38,7 @@
 
 // While loop rewrite
 
-class FizzBuzzWhile {
+class FizzBuzz {
     public static void main(String[] args) {
 
         int i = 1;
@@ -48,7 +48,7 @@ class FizzBuzzWhile {
         }
     }
 
-    private static int doFizzBuzz(int i) {
+    public static int doFizzBuzz(int i) {
         // Find out which numbers divide i.
         boolean divisibleBy3 = i % 3 == 0; // Different as you need to verbally declare the type
         boolean divisibleBy5 = i % 5 == 0;
